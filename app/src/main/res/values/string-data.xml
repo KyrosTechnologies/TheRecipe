@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin
+    \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin</string>
+    <string name="short_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="middle_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin</string>
+    <string name="long_lorem_ipsum">
+        Duis tellus metus, elementum a lectus id, aliquet interdum mauris. Nam bibendum efficitur sollicitudin. Proin eleifend libero velit, nec fringilla dolor finibus quis. nMorbi eu libero pellentesque, rutrum metus quis, blandit est. Fusce bibendum accumsan nisi vulputate feugiat. In fermentum laoreet euismod. Praesent sem nisl, facilisis eget odio at, rhoncus scelerisque ipsum. Nulla orci dui, dignissim a risus ut, lobortis porttitor velit.
+        \n\nNulla id lectus metus. Maecenas a lorem in odio auctor facilisis non vitae nunc. Sed malesuada volutpat massa. Praesent sit amet lacinia augue, mollis tempor dolor.
+    </string>
+
+    <string name="title_nav_explore">Explore</string>
+    <string name="title_nav_category">Category</string>
+    <string name="title_nav_favorites">Favorites</string>
+
+    <string name="title_nav_setting">Setting</string>
+    <string name="title_nav_about">About</string>
+
+    <!--CATEGORY DATA-->
+    <integer-array name="category_photos">
+        <item>@drawable/food_appetizer</item>
+        <item>@drawable/food_main_dish</item>
+        <item>@drawable/food_salads</item>
+        <item>@drawable/food_drink</item>
+        <item>@drawable/food_side_dish</item>
+        <item>@drawable/food_dessert</item>
+    </integer-array>
+    <integer-array name="category_icon">
+        <item>@drawable/ic_appetizer</item>
+        <item>@drawable/ic_main_dish</item>
+        <item>@drawable/ic_salad</item>
+        <item>@drawable/ic_drink</item>
+        <item>@drawable/ic_side_dish</item>
+        <item>@drawable/ic_dessert</item>
+    </integer-array>
+    <string-array name="category_names">
+        <item>Appetizers</item>
+        <item>Main Dish</item>
+        <item>Salads</item>
+        <item>Drinks</item>
+        <item>Side Dish</item>
+        <item>Dessert</item>
+    </string-array>
+    <string-array name="category_recipes">
+        <item>09:45</item>
+        <item>16:55</item>
+        <item>Yesterday</item>
+        <item>11/4/2015</item>
+        <item>11/4/2015</item>
+        <item>11/2/2015</item>
+    </string-array>
+
+    <!--APPETIZERS DATA-->
+    <integer-array name="photos_appetizers">
+        <item>@drawable/food_appetizer_1</item>
+        <item>@drawable/food_appetizer_2</item>
+        <item>@drawable/food_appetizer_3</item>
+        <item>@drawable/food_appetizer_4</item>
+        <item>@drawable/food_appetizer_5</item>
+    </integer-array>
+    <string-array name="appetizers_names">
+        <item>Superfood Tapenade</item>
+        <item>Garlic Bokchoy</item>
+        <item>Chicken Lettuce</item>
+        <item>Chicken Garlic Bites</item>
+        <item>Silverdollar Socca</item>
+    </string-array>
+    <string-array name="appetizers_duration">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>7 min</item>
+        <item>9 min</item>
+        <item>11 min</item>
+    </string-array>
+
+    <!--MAIN DISH DATA-->
+    <integer-array name="photos_main_dish">
+        <item>@drawable/food_main_dish_1</item>
+        <item>@drawable/food_main_dish_2</item>
+        <item>@drawable/food_main_dish_3</item>
+        <item>@drawable/food_main_dish_4</item>
+        <item>@drawable/food_main_dish_5</item>
+    </integer-array>
+    <string-array name="main_dish_names">
+        <item>Beef Mechado</item>
+        <item>Beef Steak</item>
+        <item>Kappa Maki</item>
+        <item>Nigiri</item>
+        <item>Spicy Barbecue</item>
+    </string-array>
+    <string-array name="main_dish_duration">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>7 min</item>
+        <item>9 min</item>
+        <item>11 min</item>
+    </string-array>
+
+    <!-- SALADS DATA-->
+    <integer-array name="photos_salads">
+        <item>@drawable/food_salads_1</item>
+        <item>@drawable/food_salads_2</item>
+        <item>@drawable/food_salads_3</item>
+        <item>@drawable/food_salads_4</item>
+        <item>@drawable/food_salads_5</item>
+        <item>@drawable/food_salads_6</item>
+    </integer-array>
+    <string-array name="salads_names">
+        <item>Famous Coleslaw</item>
+        <item>Potato Chipotle</item>
+        <item>Pasta Salad</item>
+        <item>Ultimate Greek</item>
+        <item>Feta and Walnut</item>
+        <item>Tomato-Basil Salad</item>
+    </string-array>
+    <string-array name="salads_duration">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>7 min</item>
+        <item>9 min</item>
+        <item>11 min</item>
+        <item>11 min</item>
+    </string-array>
+
+    <!--DRINKS DATA-->
+    <integer-array name="photos_drinks">
+        <item>@drawable/food_drink_1</item>
+        <item>@drawable/food_drink_2</item>
+        <item>@drawable/food_drink_3</item>
+        <item>@drawable/food_drink_4</item>
+        <item>@drawable/food_drink_5</item>
+        <item>@drawable/food_drink_6</item>
+    </integer-array>
+    <string-array name="drinks_names">
+        <item>Sangria</item>
+        <item>Pina Colada</item>
+        <item>Mai Tai</item>
+        <item>Pisco Sour</item>
+        <item>Gimlet</item>
+        <item>Irish Coffe</item>
+    </string-array>
+    <string-array name="drinks_duration">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>7 min</item>
+        <item>9 min</item>
+        <item>11 min</item>
+        <item>11 min</item>
+    </string-array>
+
+    <!--SIDE DISH DATA-->
+    <integer-array name="photos_side_dish">
+        <item>@drawable/food_side_dish_1</item>
+        <item>@drawable/food_side_dish_2</item>
+        <item>@drawable/food_side_dish_3</item>
+        <item>@drawable/food_side_dish_4</item>
+        <item>@drawable/food_side_dish_5</item>
+    </integer-array>
+    <string-array name="side_dish_names">
+        <item>Rice Roll</item>
+        <item>Beef Burger Onion</item>
+        <item>Beef Lazone</item>
+        <item>Potato Pork Chop</item>
+        <item>Cinnamon Flop</item>
+    </string-array>
+    <string-array name="side_dish_duration">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>7 min</item>
+        <item>9 min</item>
+        <item>11 min</item>
+    </string-array>
+
+    <!--DESSERT DATA-->
+    <integer-array name="photos_dessert">
+        <item>@drawable/food_dessert_1</item>
+        <item>@drawable/food_dessert_2</item>
+        <item>@drawable/food_dessert_3</item>
+        <item>@drawable/food_dessert_4</item>
+        <item>@drawable/food_dessert_5</item>
+    </integer-array>
+    <string-array name="dessert_names">
+        <item>Roast Bread</item>
+        <item>Reeses Squares</item>
+        <item>Fudge Crinkles</item>
+        <item>Burrito Casserole</item>
+        <item>Zuppa Toscana</item>
+    </string-array>
+    <string-array name="dessert_duration">
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>7 min</item>
+        <item>9 min</item>
+        <item>11 min</item>
+    </string-array>
+
+
+    <!-- RECIPES DATA-->
+    <string-array name="ingredients">
+        <item>1 slice of bread, shredded</item>
+        <item>1 medium garlic clove, minced</item>
+        <item>1 Tbsp flour</item>
+        <item>1/2 teaspoon sweet paprika</item>
+        <item>3 Tbsp minced green bell pepper</item>
+        <item>2 teaspoons lemon juice</item>
+        <item>1/2 teaspoon salt</item>
+    </string-array>
+    <string name="instruction">
+        <![CDATA[
+        <p>
+			<b>1</b> In a Dutch oven or other large, lidded pot, melt the butter over medium-high heat. Add enough pieces of the beef to sear in the pot without crowding.
+		</p> </br>
+        <p>
+			<b>2</b> When all the beef has browned, add the onions. Sprinkle a little salt over the onions as they cook. Lower the heat to medium and cook the onions until they begin to brown, <b>5-6 minutes</b>.
+		</p> </br>
+        <p>
+			<b>3</b> When the onions have lightly browned, mix in the mushrooms and increase the heat to high. Cook the mushrooms until they release their water, about <b>2-3 minutes</b>.
+		</p> </br>
+        <p>
+			<b>4</b> Add the beef back to the pot and sprinkle with marjoram. <b>Add 1 cup</b> of the stock and use the wooden spoon to scrape any browned bits off the bottom of the pot. Add the rest of the stock and water and bring to a simmer.
+		</p> </br>
+        <p>
+		<b>5</b> Add the barley, celery root and carrots, stir well and recover the pot. Simmer gently until the barley and celery root are tender, between 40 minutes and an hour.
+		</p>
+        ]]>
+    </string>
+</resources>
