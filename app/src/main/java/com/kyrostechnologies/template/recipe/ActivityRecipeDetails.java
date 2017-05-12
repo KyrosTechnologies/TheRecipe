@@ -24,7 +24,7 @@ import com.kyrostechnologies.template.recipe.model.Recipe;
 
 public class ActivityRecipeDetails extends AppCompatActivity {
 
-    public static final String EXTRA_OBJCT = "com.app.sample.recipe.OBJ";
+    public static final String EXTRA_OBJCT = "com.app.sample.ic_launcher.OBJ";
 
     // give preparation animation activity transition
     public static void navigate(AppCompatActivity activity, View transitionImage, Recipe obj) {

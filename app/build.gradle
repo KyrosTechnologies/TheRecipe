@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.kyrostechnologies.template.recipe"
+        applicationId "com.kyrostechnologies.template.ic_launcher"
         minSdkVersion 14
         targetSdkVersion 24
         versionCode 7

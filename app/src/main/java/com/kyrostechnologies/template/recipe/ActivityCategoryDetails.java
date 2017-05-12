@@ -30,7 +30,7 @@ import java.util.List;
 
 public class ActivityCategoryDetails extends AppCompatActivity {
 
-    public static final String EXTRA_OBJCT = "com.app.sample.recipe.OBJ";
+    public static final String EXTRA_OBJCT = "com.app.sample.ic_launcher.OBJ";
 
     // give preparation animation activity transition
     public static void navigate(AppCompatActivity activity, View transitionImage, Category obj) {

@@ -63,7 +63,7 @@ public class FavoritesFragment extends Fragment {
         final MenuItem searchItem = menu.findItem(R.id.action_search);
         searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
         searchView.setIconified(false);
-        searchView.setQueryHint("Search recipe...");
+        searchView.setQueryHint("Search ic_launcher...");
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String s) {
